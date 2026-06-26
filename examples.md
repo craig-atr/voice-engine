@@ -85,6 +85,17 @@ Hi [Name],
 ---
 WHY THIS IS ME: One line, no pressure, "Let me know" closer. (Earlier in this thread to another customer: "Just wanted to let you know I haven't forgotten about you.")
 
+### Follow-up — healing check-in after a session
+SUBJECT: Checking in
+---
+Hi [Name],
+
+Just wanted to check in and see how the healing is going after your last session.  Any blistering or anything you're not sure about?
+
+Feel free to send me a picture if you want me to take a look.  Let me know.
+---
+WHY THIS IS ME: "Just wanted to check in" opener, plain offer to send a photo (how I handle "is this normal" cases), short "Let me know." close. No throat-clearing. (Promoted gold — sent with no edits, 2026-06-26.)
+
 ### B2B decline — passing on an ad offer
 SUBJECT: Re: ADS
 ---
