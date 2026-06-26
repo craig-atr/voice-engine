@@ -40,7 +40,7 @@ You need to wait 6-8 weeks between sessions to give your skin time to heal
 
 We do have payment plans through cherry.  You can check how much you will be approved for online at https://atomictattooremoval.com/payment-plans
 
-You can book a consultation on our website or text us your availability at 508.203.1342
+You can book a consultation here: https://atomictattooremoval.com/book-consultation or text us your availability at 508.203.1342
 
 Let me know if you have any questions.
 ---

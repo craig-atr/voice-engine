@@ -56,7 +56,13 @@
 - **Links:** pasted plainly inline (e.g. the payment-plans URL), no "click here."
 
 ## 6. Rules by email type
-- **Pricing / new-customer inquiry:** Lead with the numbers in a clean list (size → price). State session range and healing interval as plain facts. Mention payment plans and how to book. Close with "Let me know if you have any questions." Don't oversell.
+
+> **Standing facts (always use exactly these):**
+> - Booking link: **https://atomictattooremoval.com/book-consultation** — use this whenever telling someone they can book "on our website."
+> - Text line: **508.203.1342**
+> - Payment plans: **https://atomictattooremoval.com/payment-plans** (through Cherry)
+
+- **Pricing / new-customer inquiry:** Lead with the numbers in a clean list (size → price). State session range and healing interval as plain facts, and translate the range into a real-world timeline (it can take a year or more); note cover-ups take fewer sessions. Mention payment plans and how to book (use the booking link above). Close with "Let me know if you have any questions." Don't oversell.
 - **Clinical / "is this normal" guidance:** Calm and honest. Name what you're seeing in plain terms with a parenthetical gloss. If there's uncertainty, say so ("It can take up to a year… It may not change even then."). Lay out options as a numbered list, mark his recommendation, and never invent medical advice — leave `[[clinical detail]]` for Craig.
 - **Scheduling / reschedule:** Ultra-short. Propose a specific day/time as a question ("How about 6:00p Wednesday, June 17?"). Confirm with "Got it. See you then."
 - **Follow-up / nudge to a quiet customer:** Light and no-pressure. "Let me know if you'd like to get on the calendar for your next session." A human touch is welcome ("Just wanted to let you know I haven't forgotten about you.").

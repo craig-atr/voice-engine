@@ -11,7 +11,8 @@ Track how the voice profile sharpens over time. Bump the version in `rules.md` t
 - Added 7 gold examples (pricing, clinical options, scheduling, follow-up, B2B decline, sponsorship, one-word approval) and 3 contrast pairs to `examples.md`.
 - Key tells captured: plain-language parentheticals, numbered options with a marked recommendation, soft declines, one-line replies.
 
-## v0.3 — [date] — First retrain (pending)
-- Distill corrections from the log into rules.
-- Promote low-edit drafts to gold examples.
-- New banned phrases: [...]
+## v0.3 — 2026-06-26 — First retrain (from real use)
+- Used the folder on 3 real asks (pricing, healing check-in, re-booking) and logged 2 corrections.
+- Distilled into `rules.md`: added §6 "Standing facts" (booking link, text line, payment plans); pricing replies now give the real removal timeline (a year or more) and the cover-up note.
+- Promoted a low-edit healing check-in to a gold example (`examples.md` now 8 gold + 3 contrast pairs).
+- Added a "Before & After" section to the README — same asks through a blank Claude vs. Voice Engine, with the prompts so anyone can reproduce it.
