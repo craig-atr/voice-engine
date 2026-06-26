@@ -46,7 +46,7 @@ README.md         ← you are here
 Over weeks the gold set grows, the rules sharpen, and drafts need less editing. That delta *is* the learning.
 
 ## Make it yours (for anyone forking this)
-1. Read `reference/corpus-guide.md` and gather 15–40 of your own sent emails.
+1. Read `reference/corpus-guide.md` and gather 15–40 of your own sent emails.  (I use a Gmail mcp, instead of copying and pasting)
 2. Run `reference/voice-audit-prompt.md` over them.
 3. Paste the result into `rules.md`; add the flagged gold examples (sanitized) to `examples.md`.
 4. Rewrite `brief.md` for your own problem. Start drafting and running the loop.
