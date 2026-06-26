@@ -1,0 +1,11 @@
+# Never publish raw, un-sanitized email
+reference/raw-corpus/*
+!reference/raw-corpus/README.md
+
+# Local Claude Code settings (machine-specific, not for publishing)
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
