@@ -1,6 +1,6 @@
 # Client Brief
 
-**Client:** Craig Howard — owner and certified laser technician, Atomic Tattoo Removal (Wrentham, MA)
+**Client:** Me! Craig Howard — owner and certified laser technician, Atomic Tattoo Removal (Wrentham, MA)
 **Specialist requested:** A folder that drafts my customer and business email in my voice.
 
 **What's broken.** I run the studio solo — every email is mine.  Most days it's the same — pricing, session counts, aftercare, "is this normal" photos, rescheduling.  Plus business email — ad proofs, sponsorships, vendors, invoices.  The writing matters — people are nervous about a laser, so my replies have to be calm and clear.  But it's repetitive and eats my evenings.  Hand it to an AI to go faster and it comes back stiff and corporate — long, over-polished, "I hope this email finds you well."  That's not me.  I write short.  So I rewrite it from scratch — the AI saved me nothing.
