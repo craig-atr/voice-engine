@@ -11,6 +11,7 @@ A model can't remember you between chats. So "it learns my voice" doesn't mean t
 - A **feedback loop** you run that feeds corrections back in (`reference/`)
 
 ## Folder map (ICM structure)
+> New here on the *methodology*? [`ICM.md`](ICM.md) explains how this folder works and doubles as an audit-and-plan procedure you can hand an agent to point at any project.
 ```
 brief.md          ← the client brief (read this first)
 identity.md       ← who the specialist is + how it operates each session
