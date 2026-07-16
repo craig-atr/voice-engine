@@ -14,12 +14,14 @@ A model can't remember you between chats. So "it learns my voice" doesn't mean t
 ```
 brief.md          ← the client brief (read this first)
 identity.md       ← who the specialist is + how it operates each session
-rules.md          ← how I write (tone, diction, rhythm, openers/closers)
+rules.md          ← how I write — CANONICAL voice source (tone, diction, rhythm, dials)
 examples.md       ← gold samples + good-vs-bad contrast pairs
+check.py          ← the linter: fails a draft that breaks the voice rules (run before you send)
 reference/
   voice-audit-prompt.md  ← the engine: extracts your voice from your sent email
   corpus-guide.md        ← how to gather email + keep private content private
-  corrections-log.md     ← log every fix you make
+  corrections-log.md     ← log every fix you make (WHAT you changed)
+  runs-log.md            ← ledger of real drafts + edit distance (HOW MUCH you changed)
   retrain-ritual.md      ← the weekly step that turns fixes into a sharper profile
   changelog.md           ← versioned history (proof the voice improves)
   anti-patterns.md       ← the generic "AI voice" tells to avoid
@@ -27,6 +29,17 @@ reference/
   raw-corpus/            ← your real email (git-ignored, never published)
 README.md         ← you are here
 ```
+
+## Enforcement — the rules are code, not just prose
+A "must" in a markdown file is a request the model can drift past. A "must" in code is a constraint. `check.py` compiles the voice rules — the banned corporate phrases, the two-spaces-after-period fingerprint, the "never invent a link" rule, and left-in placeholders — into a deterministic gate:
+
+```
+python check.py draft.txt      # lint a draft
+some_command | python check.py # or pipe it in
+python check.py --selftest     # prove the linter still works (good drafts pass, generic ones fail)
+```
+
+It clears a real me-voice draft and flags a generic one — try it on the Before/After pairs below. It's the difference between *hoping* the model didn't write "I hope this email finds you well" and *knowing*.
 
 ## Quickstart — using it to draft
 1. Load `identity.md`, `rules.md`, and the 3–5 most relevant `examples.md` into your AI chat.
@@ -38,10 +51,11 @@ README.md         ← you are here
 
 ## The improvement loop (why it learns)
 1. **Draft** with the current folder.
-2. **Fix & log** — note what you changed and why.
-3. **Promote** low-edit drafts into `examples.md` as new gold.
-4. **Contrast** — turn the sharpest fix into a good-vs-bad pair.
-5. **Retrain** (weekly) — distill the log into `rules.md`, bump `changelog.md`, clear the log.
+2. **Lint** — run `python check.py` on the draft; it catches the mechanical tells before you even read it.
+3. **Fix & log** — note *what* you changed in `corrections-log.md`, and log the run + *how much* you changed in `runs-log.md`.
+4. **Promote** low-edit drafts into `examples.md` as new gold.
+5. **Contrast** — turn the sharpest fix into a good-vs-bad pair.
+6. **Retrain** (weekly) — distill the log into `rules.md`, bump `changelog.md`, clear the log.
 
 Over weeks the gold set grows, the rules sharpen, and drafts need less editing. That delta *is* the learning.
 
